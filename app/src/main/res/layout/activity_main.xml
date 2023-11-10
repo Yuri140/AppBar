@@ -11,9 +11,14 @@
        android:layout_height="wrap_content">
 
        <com.google.android.material.appbar.MaterialToolbar
+           android:id="@+id/idToolbar"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
-           
+           app:navigationIcon="@drawable/baseline_menu"
+           android:contentDescription="MenuNav"
+           android:minHeight="?attr/actionBarSize"
+           app:menu="@menu/menu_top_bar"
+
            />
 
 
